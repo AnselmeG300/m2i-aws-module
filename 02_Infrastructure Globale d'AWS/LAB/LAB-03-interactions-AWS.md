@@ -157,7 +157,7 @@ exit
 4. **Vérifiez l'état de l'instance** :
    ```bash
    aws ec2 describe-instances \
-     --filters "Name=tag:Name,Values=EC2-$MY_NAME" \
+     --filters "Name=tag:Name,Values=$MY_NAME" \
      --query 'Reservations[0].Instances[0].[InstanceId,State.Name,PublicIpAddress]' \
      --region us-east-1
    ```
@@ -167,7 +167,7 @@ exit
 1. **Récupérez l'adresse IP publique** :
    ```bash
    IP=$(aws ec2 describe-instances \
-     --filters "Name=tag:Name,Values=EC2-$MY_NAME" \
+     --filters "Name=tag:Name,Values=$MY_NAME" \
      --query 'Reservations[0].Instances[0].PublicIpAddress' \
      --output text \
      --region us-east-1)

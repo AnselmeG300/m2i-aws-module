@@ -10,11 +10,11 @@ Ne JAMAIS utiliser la configuration d'un autre apprenant !
 ┌─────────────────────────────────────────────────────────────────┐
 │ APPRENANT 1 : Hannah                                            │
 └─────────────────────────────────────────────────────────────────┘
-VPC CIDR               : 10.1.0.0/16
-Subnet Public 1        : 10.1.1.0/24  (AZ: us-east-1a)
-Subnet Public 2        : 10.1.2.0/24  (AZ: us-east-1b)
-Subnet Private 1       : 10.1.11.0/24 (AZ: us-east-1a)
-Subnet Private 2       : 10.1.12.0/24 (AZ: us-east-1b)
+VPC CIDR               : 10.16.0.0/16
+Subnet Public 1        : 10.16.1.0/24  (AZ: us-east-1a)
+Subnet Public 2        : 10.16.2.0/24  (AZ: us-east-1b)
+Subnet Private 1       : 10.16.11.0/24 (AZ: us-east-1a)
+Subnet Private 2       : 10.16.12.0/24 (AZ: us-east-1b)
 
 ┌─────────────────────────────────────────────────────────────────┐
 │ APPRENANT 2 : Kevin                                             │
